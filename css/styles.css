@@ -524,7 +524,8 @@ margin-bottom: 20px;
 }
 
 .submit-btn {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
     gap: 10px;
 
     width: 200px;
