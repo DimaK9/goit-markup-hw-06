@@ -485,6 +485,11 @@ margin-bottom: 20px;
 .socials-link-footer:focus {
     background-color: #2196F3;
 }
+
+.form-wrap {
+    display: flex;
+    gap: 12px;
+}
 .sing-up {
     margin-left: 93px;
 }
@@ -516,6 +521,26 @@ margin-bottom: 20px;
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.submit-btn {
+    display: flex;
+    gap: 10px;
+
+    width: 200px;
+    height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+    background-color: var(--acent-color);
+    border-radius: 4px;
 }
 
 
