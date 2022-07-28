@@ -485,6 +485,38 @@ margin-bottom: 20px;
 .socials-link-footer:focus {
     background-color: #2196F3;
 }
+.sing-up {
+    margin-left: 93px;
+}
+
+.sing-up-title {
+display: inline-block;
+
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+    
+color: #FFFFFF;
+
+margin-bottom: 20px;
+}
+
+.email-lable {
+    gap: 40px;
+}
+
+.email {
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: #2F303A;
+
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 
 /* Portfolio */
