@@ -633,11 +633,11 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-wrap">
         <button class="modal-btn" data-modal-close>
-          <svg class="modal-icon" width="11px" height="11px">
+          <svg class="modal-icon-close" width="11px" height="11px">
             <use href="./images/icon.svg#icon-close"></use>
           </svg>
         </button>
-        <div>
+
       <form class="modal-form">
         <strong class="modal-title">Оставьте свои данные, мы вам перезвоним</strong>
         <div class="modal-form-wrap">
@@ -662,7 +662,28 @@
               <use href="./images/icon.svg#icon-mail"></use>
             </svg>
           </label>
+          <label class="modal-label">
+            <span class="label-name">Комментарий</span>
+            <textarea class="modal-textarea"
+            name=" "
+            rows="5"
+            placeholder="Введите текст"></textarea>
+          </label>
         </div>
+
+        <label class="modal-label-agreement">
+          <input class="modal-input-check visuaaly-hidden" type="checkbox" name="agreement" />
+            <svg class="register-icon" width="20" height="20">
+              <use class="icon-uncheck" href="./images/icon.svg#icon-uncheck"></use>
+              <use class="icon-check" href="./images/icon.svg#icon-check"></use>
+            </svg>
+            <span class="text-agreement">Соглашаюсь с рассылкой и принимаю <a class="agreement" href="">Условия договора</a>
+            </span>
+        </label>
+
+        <button class="modal-send-btn" type="submit">
+          Отправить
+        </button>
       </form>
     </div>
     </div>
